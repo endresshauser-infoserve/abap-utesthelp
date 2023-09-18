@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_UTESTHELP_DOMCONSTANT_TEST</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Reusable unit test for constant classes of domains</DESCRIPT>
+    <CATEGORY>05</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+    <DURATION_TYPE>12</DURATION_TYPE>
+    <RISK_LEVEL>11</RISK_LEVEL>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ALL_CONSTANTS_FOUND_IN_DOMAIN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Each constant must have a fix value in the comain</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ALL_CONSTANTS_HAVE_SAME_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>All constants must use the same type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ALL_DOMAIN_VALUES_AS_CONSTANTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Each domain fix value must have a constant in the class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_IS_ABSTRACT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>A constant class must be astract</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTANT_VALUES_DO_NOT_REPEAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>One value is not found in multiple constants.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DETERMINE_CLASS_NAME_FROM_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine the class name from a variable of the class&apos; type.</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DETERMINE_CLASS_NAME_FROM_TYPE</CMPNAME>
+     <SCONAME>I_VARIABLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance variable of the constant class</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
