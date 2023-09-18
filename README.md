@@ -72,10 +72,14 @@ Class `ZCL_UTESTHELP_TEST_DOUBLE_UTIL` offers reusable functionality for the sta
 Method `CREATE_TEST_DOUBLE` can be used to create a test double without explicitly passing in the name of the required interface or class.
 This allows you to rename your objects without having to manually adjust the object names in the tests.
 
+Example:
+
 ````abap
 DATA lo_double TYPE REF TO zif_example. 
 lo_double ?= zcl_utesthelp_test_double_util=>create_test_double( lo_double ).
 ````
+
+Instead of this:
 
 ````abap
 DATA lo_double TYPE REF TO zif_example.
