@@ -136,7 +136,7 @@ CLASS zcl_utesthelp_domconstant_test IMPLEMENTATION.
 
       cl_abap_unit_assert=>assert_equals( exp = mv_domain_name
                                           act = lv_domain_value
-                                          msg = |Constant { <ls_constant>-name } has an unexpected type| ).
+                                          msg = |Constant { <ls_constant>-name } must have the type { mv_domain_name }| ).
     ENDLOOP.
   ENDMETHOD.
 
