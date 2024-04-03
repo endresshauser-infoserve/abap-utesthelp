@@ -4,8 +4,7 @@
 "! You can use method DETERMINE_CLASS_NAME_FROM_TYPE to do this dynamically.
 "! </p>
 "! <p>
-"! This class is part of an open-source repository:
-"! https://github.com/ConjuringCoffee/abap-utesthelp
+"! This class is part of an open-source repository managed via abapGit.
 "! </p>
 CLASS zcl_utesthelp_domconstant_test DEFINITION
   PUBLIC

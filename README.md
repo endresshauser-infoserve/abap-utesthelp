@@ -4,7 +4,7 @@ This repository contains helpful classes for your unit tests.
 
 ## Test class for domain constant classes 
 
-Class `ZCL_UTESTHELP_DOMCONSTANT_TEST` as a parent class for your domain constant class unit tests.
+You can use class `ZCL_UTESTHELP_DOMCONSTANT_TEST` as a parent class for your domain constant class unit tests.
 
 It has test methods to verify the integrity of your constant class:
 
@@ -88,9 +88,5 @@ lo_double ?= cl_abap_testdouble=>create( 'zif_example' ).
 
 ## Contributing
 
-If you want to contribute to this repository, please use [my recommended ABAP Cleaner Profile](https://github.com/ConjuringCoffee/abap-cleaner-recommendation).
+If you want to contribute to this repository, please use [this ABAP Cleaner Profile](https://github.com/ConjuringCoffee/abap-cleaner-recommendation).
 Pull requests are welcome.
-
-## Sponsor
-
-Work on this repository was sponsored by [Endress+Hauser InfoServe GmbH+Co. KG](https://www.endress.com/).
