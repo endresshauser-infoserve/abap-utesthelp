@@ -4,7 +4,7 @@ This repository contains helpful classes for your unit tests.
 
 ## Test class for domain constant classes 
 
-Class `ZCL_UTESTHELP_DOMCONSTANT_TEST` as a parent class for your domain constant class unit tests.
+You can use class `ZCL_UTESTHELP_DOMCONSTANT_TEST` as a parent class for your domain constant class unit tests.
 
 It has test methods to verify the integrity of your constant class:
 
