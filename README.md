@@ -88,9 +88,5 @@ lo_double ?= cl_abap_testdouble=>create( 'zif_example' ).
 
 ## Contributing
 
-If you want to contribute to this repository, please use [my recommended ABAP Cleaner Profile](https://github.com/ConjuringCoffee/abap-cleaner-recommendation).
+If you want to contribute to this repository, please use [this ABAP Cleaner Profile](https://github.com/ConjuringCoffee/abap-cleaner-recommendation).
 Pull requests are welcome.
-
-## Sponsor
-
-Work on this repository was sponsored by [Endress+Hauser InfoServe GmbH+Co. KG](https://www.endress.com/).
