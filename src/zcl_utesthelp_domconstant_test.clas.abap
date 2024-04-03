@@ -6,6 +6,9 @@
 "! <p>
 "! This class is part of an open-source repository managed via abapGit.
 "! </p>
+"! <p>
+"! SPDX-License-Identifier: MIT
+"! </p>
 CLASS zcl_utesthelp_domconstant_test DEFINITION
   PUBLIC
   CREATE PUBLIC
