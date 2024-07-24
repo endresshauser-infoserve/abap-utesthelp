@@ -44,7 +44,7 @@ CLASS zcl_utesthelp_domconstant_test DEFINITION
     "! </p>
     "! @parameter i_variable   | <p class="shorttext synchronized">Instance variable of the constant class</p>
     "! <p>Does not have to be bound.</p>
-    "! @parameter rv_result |
+    "! @parameter rv_result | <p class="shorttext synchronized"></p>
     METHODS determine_class_name_from_type
       IMPORTING
         i_variable       TYPE data
