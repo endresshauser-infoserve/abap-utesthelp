@@ -21,8 +21,8 @@ CLASS zcl_utesthelp_test_double_util DEFINITION
     "! <p>
     "! Please see the documentation of method CREATE in CL_ABAP_TESTDOUBLE for more general details.
     "! </p>
-    "! @parameter i_typed_variable |
-    "! @parameter ro_result |
+    "! @parameter i_typed_variable | <p class="shorttext synchronized"></p>
+    "! @parameter ro_result | <p class="shorttext synchronized">
     CLASS-METHODS create_test_double
       IMPORTING
         i_typed_variable TYPE data
