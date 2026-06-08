@@ -6,6 +6,7 @@ CLASS zcl_utesthelp_itest_domconst DEFINITION
   FOR TESTING.
 
   PUBLIC SECTION.
+    "! The data element name is deliberately different from the domain name
     CONSTANTS value_a TYPE zutesthelp_itest_dtel1 VALUE 'A'.
     CONSTANTS value_b TYPE zutesthelp_itest_dtel1 VALUE 'B'.
 ENDCLASS.
