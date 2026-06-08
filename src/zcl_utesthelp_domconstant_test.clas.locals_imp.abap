@@ -10,10 +10,11 @@ CLASS lcl_helper IMPLEMENTATION.
     ASSIGN (iv_class_name)=>(is_constant-name) TO FIELD-SYMBOL(<l_value>).
     cl_abap_unit_assert=>assert_subrc( ).
 
-    DATA(lo_type_description) = cl_abap_typedescr=>describe_by_data( <l_value> ).
-    cl_abap_unit_assert=>assert_true( lo_type_description->is_ddic_type( ) ).
+    DATA(lo_elem_description) = CAST cl_abap_elemdescr( cl_abap_typedescr=>describe_by_data( <l_value> ) ).
+    cl_abap_unit_assert=>assert_true( lo_elem_description->is_ddic_type( ) ).
 
-    rv_result = lo_type_description->get_relative_name( ).
+    DATA(ls_ddic_field) = lo_elem_description->get_ddic_field( ).
+    rv_result = ls_ddic_field-domname.
   ENDMETHOD.
 
   METHOD determine_domain_values.
