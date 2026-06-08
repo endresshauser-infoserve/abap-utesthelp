@@ -1,4 +1,10 @@
 "! <p class="shorttext synchronized">integration tests for ZCL_UTESTHELP_ITEST_DOMCONST</p>
+"! <p>
+"! This class is part of an open-source repository managed via abapGit.
+"! </p>
+"! <p>
+"! SPDX-License-Identifier: MIT
+"! </p>
 CLASS zcl_utesthelp_itest_domconst DEFINITION
   PUBLIC
   ABSTRACT
