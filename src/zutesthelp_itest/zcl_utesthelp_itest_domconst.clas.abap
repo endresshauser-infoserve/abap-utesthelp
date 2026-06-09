@@ -1,4 +1,8 @@
-"! <p class="shorttext synchronized">integration tests for ZCL_UTESTHELP_ITEST_DOMCONST</p>
+"! <p class="shorttext synchronized">Integration tests for ZCL_UTESTHELP_ITEST_DOMCONST</p>
+"! <p>
+"! The global class itself is set up like how a domain constant class is expected to be set up.
+"! The integration tests themselves are in the unit test include.
+"! </p>
 "! <p>
 "! This class is part of an open-source repository managed via abapGit.
 "! </p>

@@ -1,6 +1,5 @@
-"! Test using the global constant class
 "! @testing ZCL_UTESTHELP_DOMCONSTANT_TEST
-CLASS ltc_global_const DEFINITION
+CLASS ltc_test DEFINITION
   INHERITING FROM zcl_utesthelp_domconstant_test
   CREATE PUBLIC
   FOR TESTING
@@ -12,7 +11,7 @@ CLASS ltc_global_const DEFINITION
 ENDCLASS.
 
 
-CLASS ltc_global_const IMPLEMENTATION.
+CLASS ltc_test IMPLEMENTATION.
   METHOD get_class_name.
     DATA lo_constant_class TYPE REF TO zcl_utesthelp_itest_domconst.
     rv_result = determine_class_name_from_type( lo_constant_class ).
